@@ -26,7 +26,7 @@ Another Sip 是一款可以自由划分一天的 macOS 桌面时间小组件。�
 
 - macOS 14 或更高版本
 - Apple Silicon 与 Intel Mac（Universal Binary）
-- 完全离线，不需要账号、服务器、Xcode或开发者账号
+- 核心计时与设置完全离线，不需要账号、服务器、Xcode 或开发者账号；仅检查更新时访问公开 GitHub Release
 - 免费使用
 
 ## 下载与安装
@@ -45,19 +45,22 @@ Another Sip 是一款可以自由划分一天的 macOS 桌面时间小组件。�
 
 Another Sip 目前使用免费的 ad-hoc 签名，没有 Developer ID 签名，也没有经过 Apple 公证。这样可以在不加入每年 99 美元 Apple Developer Program 的情况下免费分享，但 macOS 无法自动验证开发者身份，因此首次运行需要由用户手动批准一次。
 
-安装包不依赖个人开发证书或 Provisioning Profile，不存在 Personal Team 的 7 天到期问题。应用没有自动更新功能；新版本需要重新下载并替换旧 App。
+安装包不依赖个人开发证书或 Provisioning Profile，不存在 Personal Team 的 7 天到期问题。应用只负责检查和提醒，不会自动下载或安装；新版本仍需重新下载并替换旧 App。
 
 ## 当前版本
 
-### 1.0.1
+### 1.0.2
 
+- 修复删除阶段时可能闪退的问题
+- 设置页增加轻量的 GitHub Release 更新检查，可关闭每日自动检查
+- 更新只提供提醒和下载页面，不会自动安装或替换 App
 - Small 与 Medium 两种桌面小组件
 - 1–12 个可自定义阶段
 - 使用一个“阶段名称（可包含 Emoji）”输入框，不再单独设置 Emoji
 - 支持名称、起止时间、添加、删除、顺序调整和恢复默认预设
 - 阶段不能重叠，但可以保留空档
 - 分钟级倒计时、进度、主题与 12/24 小时制
-- 本地保存、完全离线
+- 本地保存；除可关闭的更新检查外，日常计时与小组件无需联网
 
 完整更新记录见 [Release Notes](RELEASE_NOTES.md)。
 
