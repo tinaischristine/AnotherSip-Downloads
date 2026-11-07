@@ -2,7 +2,7 @@
 
 > A customizable macOS desktop widget to organize your day into time blocks and track the time remaining in each. ☕️
 
-Another Sip 是一款可以自由划分一天的 macOS 桌面时间小组件。你可以为不同时间段设置名称、Emoji 和起止时间，也可以直接使用内置的五阶段预设。
+Another Sip 是一款可以自由划分一天的 macOS 桌面时间小组件。你可以为不同时间段设置阶段名称和起止时间；需要 Emoji 时直接写在名称里。你也可以直接使用内置的五阶段预设。
 
 ![Another Sip 桌面小组件](assets/another-sip-widget.png)
 
@@ -20,7 +20,7 @@ Another Sip 是一款可以自由划分一天的 macOS 桌面时间小组件。�
 | 20:00–22:00 | 🫖 还有点闲暇 |
 | 22:00–23:00 | 🥛 梦里再说吧 |
 
-你可以添加或删除阶段，修改每段 Emoji、名称和起止时间，也可以在阶段之间保留休息空档。阶段不必等长，也不必连续。
+你可以添加或删除阶段，修改每段的名称和起止时间，也可以在阶段之间保留休息空档。阶段名称可以直接包含 Emoji；阶段不必等长，也不必连续。
 
 ## 系统要求
 
@@ -49,11 +49,12 @@ Another Sip 目前使用免费的 ad-hoc 签名，没有 Developer ID 签名，�
 
 ## 当前版本
 
-### 1.0.0
+### 1.0.1
 
 - Small 与 Medium 两种桌面小组件
 - 1–12 个可自定义阶段
-- 支持 Emoji、名称、起止时间、添加、删除、顺序调整和恢复默认预设
+- 使用一个“阶段名称（可包含 Emoji）”输入框，不再单独设置 Emoji
+- 支持名称、起止时间、添加、删除、顺序调整和恢复默认预设
 - 阶段不能重叠，但可以保留空档
 - 分钟级倒计时、进度、主题与 12/24 小时制
 - 本地保存、完全离线

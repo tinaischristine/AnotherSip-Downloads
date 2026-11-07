@@ -1,13 +1,14 @@
-# Another Sip 1.0.0
+# Another Sip 1.0.1
 
-首个公开下载版本。
+这是 1.0.0 之后的小幅界面改进版本，保留原有时间逻辑、默认预设和视觉设计。
 
 ## 功能
 
 - 原生 macOS SwiftUI App 与 WidgetKit 桌面小组件
 - Small 与 Medium 两种尺寸
 - 1–12 个可自定义阶段
-- 可编辑 Emoji、名称、开始与结束时间
+- 阶段名称与 Emoji 合并为一个输入框；需要 Emoji 时直接写在名称中
+- 可编辑阶段名称、开始与结束时间
 - 可添加、删除、调整顺序并恢复五阶段默认预设
 - 阶段不能重叠，允许保留空档
 - 当前阶段或下一阶段的分钟级倒计时
@@ -25,7 +26,7 @@
 ## 验证范围
 
 - Release 构建成功
-- 12 项 XCTest 全部通过
+- 13 项 XCTest 全部通过
 - 主 App 与 Widget Extension 嵌套签名严格验证通过
 - 主 App 与 Widget Extension 均验证为 `arm64 + x86_64`
 
